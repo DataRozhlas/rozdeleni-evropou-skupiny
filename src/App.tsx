@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import './App.css'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import {
@@ -11,10 +12,19 @@ import {
 
 import data from './assets/data.json'
 
+import { usePostMessageWithHeight } from './hooks/usePostHeightMessage'
+
 function App() {
 
+  const { containerRef, postHeightMessage } = usePostMessageWithHeight(`rozdeleni-evropou-skupiny`);
+
+  useEffect(() => {
+    postHeightMessage();
+  }, []);
+
+
   return (
-    <div className="mx-auto max-w-screen-sm">
+    <div ref={containerRef} className="mx-auto max-w-screen-sm">
       <Tabs defaultValue="1" className="">
         <TabsList>
           <TabsTrigger value="1">Euronadšenci</TabsTrigger>
@@ -34,10 +44,10 @@ function App() {
                 </CardHeader>
                 <CardContent>
                   {/* <div className="flex justify-end"> */}
-                  <img className="sm:max-w-sm sm:float-right" src={`${index + 1}.png`} alt={item.name} />
+                  <img className="max-w-sm float-right" src={`${index + 1}.png`} alt={item.name} />
                   {/* </div> */}
                   <ul className="list-disc list-inside">
-                    <p className="leading-6">{item.description.map(point => <li key={crypto.randomUUID()}>{point}</li>)}</p>
+                    <p className="leading-5">{item.description.map(point => <li className="py-1" key={crypto.randomUUID()}>{point}</li>)}</p>
                   </ul>
                 </CardContent>
                 <CardFooter className="flex justify-end">

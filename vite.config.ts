@@ -4,6 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "https://data.irozhlas.cz/rozdeleni-evropou-skupiny/",
   plugins: [react()],
   resolve: {
     alias: {
