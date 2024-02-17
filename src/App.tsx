@@ -28,13 +28,16 @@ function App() {
           return (
             <TabsContent value={String(index + 1)} key={crypto.randomUUID()}>
               <Card>
-                <CardHeader>
+                <CardHeader className="">
                   <CardTitle>{item.name}</CardTitle>
                   <CardDescription>{`${item.percentage} populace`}</CardDescription>
                 </CardHeader>
                 <CardContent>
+                  {/* <div className="flex justify-end"> */}
+                  <img className="sm:max-w-sm sm:float-right" src={`${index + 1}.png`} alt={item.name} />
+                  {/* </div> */}
                   <ul className="list-disc list-inside">
-                    <p className="leading-7">{item.description.map(point => <li>{point}</li>)}</p>
+                    <p className="leading-6">{item.description.map(point => <li key={crypto.randomUUID()}>{point}</li>)}</p>
                   </ul>
                 </CardContent>
                 <CardFooter className="flex justify-end">
