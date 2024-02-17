@@ -14,6 +14,7 @@ import data from './assets/data.json'
 
 import { usePostMessageWithHeight } from './hooks/usePostHeightMessage'
 
+
 function App() {
 
   const { containerRef, postHeightMessage } = usePostMessageWithHeight(`rozdeleni-evropou-skupiny`);
@@ -27,12 +28,12 @@ function App() {
     <div ref={containerRef} className="mx-auto max-w-screen-sm">
       <Tabs defaultValue="1" className="">
         <TabsList>
-          <TabsTrigger value="1">Euronadšenci</TabsTrigger>
-          <TabsTrigger value="2">Příznivci</TabsTrigger>
-          <TabsTrigger value="3">Vlažní příznivci</TabsTrigger>
-          <TabsTrigger value="4">Nejistí</TabsTrigger>
-          <TabsTrigger value="5">Odpůrci</TabsTrigger>
-          <TabsTrigger value="6">Skalní odpůrci</TabsTrigger>
+          <TabsTrigger onClick={postHeightMessage} value="1">Euronadšenci</TabsTrigger>
+          <TabsTrigger onClick={postHeightMessage} value="2">Příznivci</TabsTrigger>
+          <TabsTrigger onClick={postHeightMessage} value="3">Vlažní příznivci</TabsTrigger>
+          <TabsTrigger onClick={postHeightMessage} value="4">Nejistí</TabsTrigger>
+          <TabsTrigger onClick={postHeightMessage} value="5">Odpůrci</TabsTrigger>
+          <TabsTrigger onClick={postHeightMessage} value="6">Skalní odpůrci</TabsTrigger>
         </TabsList>
         {data.map((item, index) => {
           return (
@@ -44,9 +45,9 @@ function App() {
                 </CardHeader>
                 <CardContent>
                   {/* <div className="flex justify-end"> */}
-                  <img className="max-w-sm float-right" src={`${index + 1}.png`} alt={item.name} />
+                  <img className="max-w-sm float-right h-auto aspect-[1.41/1]" src={`./${index + 1}.png`} alt={item.name} />
                   {/* </div> */}
-                  <ul className="list-disc list-inside">
+                  <ul className="list-disc">
                     <p className="leading-5">{item.description.map(point => <li className="py-1" key={crypto.randomUUID()}>{point}</li>)}</p>
                   </ul>
                 </CardContent>
