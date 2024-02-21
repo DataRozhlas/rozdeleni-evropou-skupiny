@@ -45,14 +45,14 @@ function App() {
                 </CardHeader>
                 <CardContent>
                   {/* <div className="flex justify-end"> */}
-                  <img className="max-w-sm float-right h-auto aspect-[1.41/1]" src={`./${index + 1}.png`} alt={item.name} />
+                  <img className="w-full max-w-sm float-right h-auto aspect-[1.41/1]" src={`./${index + 1}.png`} alt={item.name} />
                   {/* </div> */}
                   <ul className="list-disc">
                     <p className="leading-5">{item.description.map(point => <li className="py-1" key={crypto.randomUUID()}>{point}</li>)}</p>
                   </ul>
                 </CardContent>
                 <CardFooter className="flex justify-end">
-                  <p className="text-xs">Zdroj: CVVM, Ilustrace: Toybox</p>
+                  <p className="text-xs">Zdroj: STEM, Ilustrace: Toybox</p>
                 </CardFooter>
               </Card>
             </TabsContent>
