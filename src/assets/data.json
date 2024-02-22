@@ -7,16 +7,16 @@
             "Ohledně současného stavu politiky jsou spíše optimističtí.",
             "Udržují si přehled o domácí i zahraniční politice, o EU jsou nadprůměrně informovaní.",
             "Jsou hrdí na své evropanství, EU by podle nich měla mít větší pravomoci.",
-            "O něco málo častěji jde o muže. Euronadšenci jsou nejčastěji lidé do 44 let, majetnější, s vysokoškolským vzděláním, žijí ve velkých městech."
+            "O něco málo častěji jde o muže. Euronadšenci jsou nejčastěji lidé do 44 let, majetnější, s vysokoškolským vzděláním, žijí spíše ve velkých městech."
         ]
     },
     {
-        "name": "Příznivci EU",
+        "name": "Příznivci",
         "percentage": "11 %",
         "description": [
             "EU jsou naklonění, ale k jejímu fungování mají výhrady. Jsou roztříštěnější v tom, čím by se měla Unie zabývat, a čím už ne.",
             "Slaběji oceňují přínosy členství v EU, ale mají k ní stabilní, pozitivní postoj.",
-            "Očekávání do značné míry sdílejí s Eurofederalisty, méně se ale domnívají, že je EU dokáže naplnit.",
+            "Očekávání do značné míry sdílejí s Euronadšenci, méně se ale domnívají, že je EU dokáže naplnit.",
             "Mají menší důvěru k domácím institucím a politikům, i když se stále jedná o obecně vysokou podporu.",
             "Jde většinou o lidi mezi 18 a 29 lety s maturitou nebo vysokoškolským vzděláním a řadí se nejčastěji ke střední příjmové vrstvě. Je mezi nimi nadprůměrný podíl studentů."
         ]
@@ -25,9 +25,9 @@
         "name": "Vlažní příznivci",
         "percentage": "21 %",
         "description": [
-            "K EU mají sympatie, ale jsou pasivní, nemají konkrétní představu.",
-            "O fungování EU moc neví, vystupovat z ní nechtějí, ale jejich názor není tak pevný.",
-            "Pro jejich mobilizaci je potřeba dostatečná motivace.",
+            "K EU mají sympatie, ale v její podpoře jsou spíše pasivní, nemají konkrétní představu.",
+            "O fungování EU moc neví, vystupovat z ní nechtějí, ale jejich názor není příliš pevný.",
+            "Aby na EU pocítili hrdost nebo se jí zastali, musí v nich něco vzbudit silnou emoci či zájem.",
             "Nejčastěji jde o lidi mezi 30 a 59 lety ze střední a nižší střední vrstvy.",
             "Ve skupině dominuje vysokoškolské a středoškolské vzdělání s maturitou."
         ]
@@ -37,19 +37,19 @@
         "percentage": "21 %",
         "description": [
             "Jazýček na vahách uvažování o EU. Nejde o odpůrce, ale EU také nejsou nakloněni.",
-            "O dění v EU se nezajímají, v životě si přejí hlavně stabilitu a zajištění jistot a bezpečnosti.",
+            "O dění v EU se příliš nezajímají, v životě si přejí hlavně stabilitu a zajištění jistot a bezpečnosti.",
             "V případě referenda o vystoupení z EU by většina, byť vlažně, hlasovala spíše pro setrvání.",
-            "Nejistí jsou většinou starší 45 let, častěji jde o ženy. Nejčastěji jsou vyučení bez maturity, nebo mají středoškolské vzdělání s maturitou a pracují v dělnických profesích.",
-            "Začíná na ně doléhat finanční krize, mají problémy vyjít s penězi."
+            "Nejistí jsou většinou starší 45 let, častěji jde o ženy. Nejčastěji jsou vyučení bez maturity nebo mají středoškolské vzdělání s maturitou. Pracují převážně v dělnických profesích.",
+            "Inflace a zdražování na ně značně dolehly, mohli se dostat až do situace, kdy je pro ně složité vyjít s penězi."
         ]
     },
     {
-        "name": "Odpůrci EU",
+        "name": "Odpůrci",
         "percentage": "24 %",
         "description": [
             "Jsou negativně naladění vůči EU, ale také vůči domácí politice a vládě.",
             "Často jsou zklamaní polistopadovým vývojem a současnou politickou situací. Jsou dlouhodobě nespokojení se systémem, i když nespokojenost není vždy konkrétní.",
-            "Významná část z nich už pociťuje finanční problémy, které nezvládají řešit. Krize obecně zvládají hůře.",
+            "Významná část z nich v posledních dvou letech pocítila finanční problémy. Část z nich už je přestává zvládat. Obecně je pro ně obtížnější vypořádat se s finančními krizemi.",
             "Mírně častěji jde o starší ročníky, sami se považují za průměrně či špatně zajištěné. Mírně častěji mají základní nebo středoškolské vzdělání bez maturity.",
             "Pracují v dělnických profesích, případně jsou již v důchodu. Výrazně častěji žijí na vesnicích a v menších městech."
         ]
@@ -58,9 +58,9 @@
         "name": "Skalní odpůrci",
         "percentage": "14 %",
         "description": [
-            "Tvoří aktivní jádro odporu proti EU a jsou nejvíce mobilizovatelná skupina. Ve svém přesvědčení jsou utvrzení.",
-            "Dlouhodobě bývají zatížení materiálními problémy, jsou zklamaní z vývoje země a nemají naději, že budoucnost přinese něco dobrého.",
-            "O EU i o dění v České republice nemají moc relevantních informací, sami od sebe je nevyhledávají.",
+            "Ve svém protiunijním přesvědčení jsou utvrzení. Odpor vůči EU jsou snáze ochotni aktivně projevit. Proti EU se mohou vyjadřovat v internetových diskusích, v rozhovorech s rodinou či přáteli a ze všech skupin mají největší ochotu zúčastnit se veřejných protestů proti EU.",
+            "Dlouhodobě bývají zatížení materiálními problémy, jsou zklamaní z vývoje země a mají jen malou naději, že budoucnost přinese něco dobrého.",
+            "O EU i o dění v České republice nemá většina z nich moc relevantních informací, sami od sebe je příliš nevyhledávají.",
             "Radikální odpůrci jsou nejčastěji starší 45 let, mladých je mezi nimi málo. Nejčastěji jde o vyučené lidi, špatně zajištěné, velká část má nebo očekává finanční problémy.",
             "Nejčastěji jde o dělnické profese a důchodce, často to jsou nevoliči."
         ]
