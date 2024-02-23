@@ -3,7 +3,7 @@
         "name": "Euronadšenci",
         "percentage": "9 %",
         "description": [
-            "Skupina často až nekriticky nakloněná EU.",
+            "Skupina – často až nekriticky – nakloněná EU.",
             "Ohledně současného stavu politiky jsou spíše optimističtí.",
             "Udržují si přehled o domácí i zahraniční politice, o EU jsou nadprůměrně informovaní.",
             "Jsou hrdí na své evropanství, EU by podle nich měla mít větší pravomoci.",
@@ -36,10 +36,10 @@
         "name": "Nejistí",
         "percentage": "21 %",
         "description": [
-            "Jazýček na vahách uvažování o EU. Nejde o odpůrce, ale EU také nejsou nakloněni.",
+            "Nejde o vyložené odpůrce, ale EU také nejsou přímo nakloněni.",
             "O dění v EU se příliš nezajímají, v životě si přejí hlavně stabilitu a zajištění jistot a bezpečnosti.",
             "V případě referenda o vystoupení z EU by většina, byť vlažně, hlasovala spíše pro setrvání.",
-            "Nejistí jsou většinou starší 45 let, častěji jde o ženy. Nejčastěji jsou vyučení bez maturity nebo mají středoškolské vzdělání s maturitou. Pracují převážně v dělnických profesích.",
+            "Jsou většinou starší 45 let, častěji jde o ženy. Nejčastěji jsou vyučení bez maturity nebo mají středoškolské vzdělání s maturitou. Pracují převážně v dělnických profesích.",
             "Inflace a zdražování na ně značně dolehly, mohli se dostat až do situace, kdy je pro ně složité vyjít s penězi."
         ]
     },
@@ -47,11 +47,11 @@
         "name": "Odpůrci",
         "percentage": "24 %",
         "description": [
-            "Jsou negativně naladění vůči EU, ale také vůči domácí politice a vládě.",
-            "Často jsou zklamaní polistopadovým vývojem a současnou politickou situací. Jsou dlouhodobě nespokojení se systémem, i když nespokojenost není vždy konkrétní.",
-            "Významná část z nich v posledních dvou letech pocítila finanční problémy. Část z nich už je přestává zvládat. Obecně je pro ně obtížnější vypořádat se s finančními krizemi.",
-            "Mírně častěji jde o starší ročníky, sami se považují za průměrně či špatně zajištěné. Mírně častěji mají základní nebo středoškolské vzdělání bez maturity.",
-            "Pracují v dělnických profesích, případně jsou již v důchodu. Výrazně častěji žijí na vesnicích a v menších městech."
+            "Jsou převážně negativně naladění vůči EU, ale také vůči domácí politice a vládě.",
+            "Často jsou zklamaní polistopadovým vývojem a současnou politickou situací. Jsou dlouhodobě nespokojení s tím, jak některé věci v ČR fungují.",
+            "Krizi posledních dvou let silně pocítili, část z nich to dovedlo do finančních potíží. Obecně je pro ně obtížnější vypořádat se s finančními krizemi.",
+            "Mírně častěji jde o starší ročníky, sami se považují převážně za průměrně či špatně zajištěné. O něco častěji mají základní nebo středoškolské vzdělání bez maturity.",
+            "Podstatná část z nich je již v důchodu, pokud pracují, je to nejčastěji v dělnických profesích. Výrazně častěji žijí na vesnicích a v menších městech."
         ]
     },
     {
@@ -59,7 +59,7 @@
         "percentage": "14 %",
         "description": [
             "Ve svém protiunijním přesvědčení jsou utvrzení. Odpor vůči EU jsou snáze ochotni aktivně projevit. Proti EU se mohou vyjadřovat v internetových diskusích, v rozhovorech s rodinou či přáteli a ze všech skupin mají největší ochotu zúčastnit se veřejných protestů proti EU.",
-            "Dlouhodobě bývají zatížení materiálními problémy, jsou zklamaní z vývoje země a mají jen malou naději, že budoucnost přinese něco dobrého.",
+            "Dlouhodobě bývají zatížení materiálními problémy, jsou zklamaní z vývoje země a mají jen slabou víru v to, že budoucnost jim přinese něco dobrého.",
             "O EU i o dění v České republice nemá většina z nich moc relevantních informací, sami od sebe je příliš nevyhledávají.",
             "Radikální odpůrci jsou nejčastěji starší 45 let, mladých je mezi nimi málo. Nejčastěji jde o vyučené lidi, špatně zajištěné, velká část má nebo očekává finanční problémy.",
             "Nejčastěji jde o dělnické profese a důchodce, často to jsou nevoliči."
