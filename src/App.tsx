@@ -45,9 +45,9 @@ function App({ id }: { id: string | null }) {
                 </CardHeader>
                 <CardContent>
                   {/* <div className="flex justify-end"> */}
-                  <img className="w-full max-w-sm float-right h-auto aspect-[1.41/1]" src={`./${index + 1}.png`} alt={item.name} />
+                  <img className="w-full max-w-sm xs:float-right h-auto aspect-[1.41/1]" src={`./${index + 1}.png`} alt={item.name} />
                   {/* </div> */}
-                  <ul className="list-disc">
+                  <ul className="list-[square]">
                     <p className="leading-5">{item.description.map(point => <li className="py-1" key={crypto.randomUUID()}>{point}</li>)}</p>
                   </ul>
                 </CardContent>
