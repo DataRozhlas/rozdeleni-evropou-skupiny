@@ -15,9 +15,9 @@ import data from './assets/data.json'
 import { usePostMessageWithHeight } from './hooks/usePostHeightMessage'
 
 
-function App() {
+function App({ id }: { id: string | null }) {
 
-  const { containerRef, postHeightMessage } = usePostMessageWithHeight(`rozdeleni-evropou-skupiny`);
+  const { containerRef, postHeightMessage } = usePostMessageWithHeight(id ? `rozdeleni-evropou-skupiny-${id}` : `rozdeleni-evropou-skupiny`);
 
   useEffect(() => {
     postHeightMessage();
@@ -26,7 +26,7 @@ function App() {
 
   return (
     <div ref={containerRef} className="mx-auto max-w-screen-sm">
-      <Tabs defaultValue="1" className="">
+      <Tabs defaultValue={id || "1"} className="">
         <TabsList>
           <TabsTrigger onClick={postHeightMessage} value="1">Euronadšenci</TabsTrigger>
           <TabsTrigger onClick={postHeightMessage} value="2">Příznivci</TabsTrigger>
